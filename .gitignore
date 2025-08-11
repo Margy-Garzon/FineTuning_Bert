@@ -254,8 +254,7 @@ $RECYCLE.BIN/
 *.key
 *.env
 # Datos sensibles / Excel
-datos_sinco.xlsx
-filtered_dataset.xlsx
+*.xlsx
 # Entornos
 __pycache__/
 .ipynb_checkpoints/
