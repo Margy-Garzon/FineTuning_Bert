@@ -253,8 +253,10 @@ $RECYCLE.BIN/
 # Credentials
 *.key
 *.env
+
+
 # Datos sensibles / Excel
-*.xlsx
+
 # Entornos
 __pycache__/
 .ipynb_checkpoints/
