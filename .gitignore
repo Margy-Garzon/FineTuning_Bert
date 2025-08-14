@@ -259,7 +259,6 @@ $RECYCLE.BIN/
 *.xlsx
 *.py
 
-
 # Entornos
 __pycache__/
 .ipynb_checkpoints/
