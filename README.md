@@ -28,11 +28,11 @@ Original dataset (not versioned)
 
 filtered_dataset.xlsx :arrow_right: Cleaned/filtered dataset (not versioned)
 
-categories.py :arrow_right: Helper logic module (ignored by Git)   
+categories.py :arrow_right: Helper logic module (ignored by Git)
 
-env/ :arrow_right: Python virtual environment directory  
+env :arrow_right: Python virtual environment directory  
 
-__pycache__/ :arrow_right: Python cache directory (ignored)  
+__pycache__ :arrow_right: Python cache directory (ignored)  
 
 requirements.txt :arrow_right:
  List of Python dependencies  
