@@ -8,11 +8,11 @@ This project extracts, processes, and classifies Spanish-language communications
 
 > **In this project, we present the tuning and adaptation of BERT, a pre-trained Transformer-based model, with the objective of improving classification performance in natural language processing.**  
 
-The study focuses on a dataset from Sinco, a communication management platform where users raise various issues and situations. A major challenge identified was __class imbalance__ due to the diversity of situations presented. 
+The study focuses on a dataset from Sinco, a communication management platform where users raise various issues and situations. A major challenge identified was **class imbalance** due to the diversity of situations presented.
 
-To address this, we applied data-processing techniques such as __oversampling__, __undersampling__, and __weight assignment__ to balance the distribution of examples across classes.  
+To address this, we applied data-processing techniques such as **oversampling**, **undersampling**, and **weight assignment** to balance the distribution of examples across classes.  
 
-We then adapted BERT by adding __neural network layers__ and tuning hyperparameters (learning rate, activation functions). These adaptations were evaluated both on the balanced dataset and on the original data. The best results—79 % accuracy, 80 % recall, and a 79 % F1-score—were obtained by assigning class weights. These outcomes demonstrate the methodology’s potential given the data’s complexity and class diversity.
+We then adapted BERT by adding **neural network layers** and tuning hyperparameters (learning rate, activation functions). These adaptations were evaluated both on the balanced dataset and on the original data. The best results—79 % accuracy, 80 % recall, and a 79 % F1-score—were obtained by assigning class weights. These outcomes demonstrate the methodology’s potential given the data’s complexity and class diversity.
 
 ## Repository Structure  
 
@@ -32,7 +32,7 @@ categories.py :arrow_right: Helper logic module (ignored by Git)
 
 env :arrow_right: Python virtual environment directory  
 
-__pycache__ :arrow_right: Python cache directory (ignored)  
+pycache :arrow_right: Python cache directory (ignored)  
 
 requirements.txt :arrow_right:
  List of Python dependencies  
@@ -57,16 +57,16 @@ pip3 install -r requitements.txt
 
 ## Workflow  
 
-1. __01-Data_extraction_sinco.ipynb__
+1. **01-Data_extraction_sinco.ipynb**
 
     - Run all cells to extract and preprocess raw data.  
     - Generates `datos_sinco.xlsx`.  
 
-2. __02-Data_Analysis.ipynb__
+2. **02-Data_Analysis.ipynb**
 
     - Explore and visualize the preprocessed dataset.  
 
-3. __03-Bert_clasification_models.ipynb__
+3. **03-Bert_clasification_models.ipynb**
 
     - Define and train the BERT-based classifier.  
     - Evaluate model performance and generate classification metrics.
@@ -84,4 +84,4 @@ For more information consulting the next paper in the link:  <https://www.resear
 
 ## Authors
 
-- [@margy-garzon](https://www.linkedin.com/in/margy-garzon/)
+[@margy-garzon](https://www.linkedin.com/in/margy-garzon/)
