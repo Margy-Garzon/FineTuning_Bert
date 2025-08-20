@@ -6,7 +6,7 @@ This project extracts, processes, and classifies Spanish-language communications
 
 ## Study Summary  
 
-> **In this paper, we present the tuning and adaptation of BERT, a pre-trained Transformer-based model, with the objective of improving classification performance in natural language processing.**  
+> **In this project, we present the tuning and adaptation of BERT, a pre-trained Transformer-based model, with the objective of improving classification performance in natural language processing.**  
 
 The study focuses on a dataset from Sinco, a communication management platform where users raise various issues and situations. A major challenge identified was __class imbalance__ due to the diversity of situations presented. 
 
